@@ -54,7 +54,7 @@ import MongoDB from "../assets/images/mongoDB.svg";
 import snowflake from "../assets/images/snowflake.svg";
 import AWSLambda from "../assets/images/AWS-Lambda.svg";
 import GoogleColab from "../assets/images/GoogleColaboratory.svg";
-import Jupyter from "../assets/images/jupyter.svg";
+import Jupyter from "../assets/images/Jupyter.svg";
 
 // 06
 import PowerBI from "../assets/images/PowerBI.svg";
