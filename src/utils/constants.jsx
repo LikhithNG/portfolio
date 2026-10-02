@@ -476,5 +476,8 @@ export const ACHIEVEMENTS = [
 ];
 
 // CONTACT
+// To use Formspree instead of mailto, swap the ContactMe form action for
+// "https://formspree.io/f/<your-form-id>".
+export const CONTACT_EMAIL = "nagaralugurumurthy.l@northeastern.edu";
 
 // FOOTER

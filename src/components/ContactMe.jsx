@@ -1,5 +1,6 @@
 import FadeContent from "./FadeContent";
 import { FiSend } from "react-icons/fi";
+import { CONTACT_EMAIL } from "../utils/constants";
 
 const ContactMe = () => {
   return (
@@ -32,7 +33,7 @@ const ContactMe = () => {
             >
               <p className="text-center text-gray-400 mb-10">
                 Have a question, a project idea, or just want to say hi? <br />{" "}
-                Fill out the form below and let's connect!
+                Fill out the form below to open an email in your mail app and let's connect!
               </p>
             </FadeContent>
             <FadeContent
@@ -43,8 +44,9 @@ const ContactMe = () => {
               delay={1000}
             >
               <form
-                action="https://formspree.io/f/YOUR_FORM_ID"
+                action={`mailto:${CONTACT_EMAIL}`}
                 method="POST"
+                encType="text/plain"
                 className="space-y-6"
               >
                 {/* Name */}
@@ -57,6 +59,7 @@ const ContactMe = () => {
                   </label>
                   <input
                     id="name"
+                    name="name"
                     type="text"
                     required
                     placeholder="Your Name"
@@ -74,6 +77,7 @@ const ContactMe = () => {
                   </label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
                     required
                     placeholder="you@example.com"
@@ -91,6 +95,7 @@ const ContactMe = () => {
                   </label>
                   <textarea
                     id="message"
+                    name="message"
                     rows="5"
                     required
                     placeholder="Write your message here..."

@@ -3,7 +3,7 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa6";
 import CF from "../assets/images/cf.svg";
 import ResumeLNG from "../assets/resume/resume.pdf";
-import { SOCIALS } from "../utils/constants";
+import { CONTACT_EMAIL, SOCIALS } from "../utils/constants";
 
 const Footer = () => {
   return (
@@ -131,13 +131,13 @@ const Footer = () => {
             <ul className="text-zinc-400 space-y-3 mb-6">
               <li>
                 <a
-                  href="mailto:nagaralugurumurthy.l@northeastern.edu"
+                  href={`mailto:${CONTACT_EMAIL}`}
                   aria-label="Send me an email"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors duration-300"
                 >
-                  nagaralugurumurthy.l@northeastern.edu
+                  {CONTACT_EMAIL}
                 </a>
               </li>
             </ul>
