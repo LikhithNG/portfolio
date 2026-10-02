@@ -78,8 +78,7 @@ export const SOCIALS = [
   {
     linkedin: "http://linkedin.com/in/likhith-ng",
     github: "https://github.com/LikhithNG",
-    instagram:
-      "https://www.instagram.com/likhith.ng?igsh=eGJjNThtYTZwZngz&utm_source=qr",
+    instagram: "https://www.instagram.com/likhith.ng",
   },
 ];
 
