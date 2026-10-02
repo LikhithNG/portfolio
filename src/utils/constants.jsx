@@ -250,7 +250,7 @@ export const PROJECTS = [
         line: "Integrated real-time data validation and analytical SQL views, enabling accurate forecasting and improving operational efficiency by 30%.",
       },
     ],
-    link: "https://github.com/LikhithNG/Deep-Learning-for-EEG-Signal-Analysis-",
+    link: "https://github.com/LikhithNG/DMDD-project-team_17",
     img: P3,
     tags: [
       { name: "PL/SQL" },
@@ -271,7 +271,7 @@ export const PROJECTS = [
         line: "Built robust data preprocessing and augmentation pipelines, optimized model performance through transfer learning and hyperparameter tuning, and deployed inference via Flask for real-time detection.",
       },
     ],
-    link: "https://github.com/LikhithNG/Deep-Learning-for-EEG-Signal-Analysis-",
+    link: "https://github.com/LikhithNG/LEUKEMIA-CANCER-DETECTION",
     img: P4,
     tags: [
       { name: "Python" },
